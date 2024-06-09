@@ -1,0 +1,21 @@
+READ This
+
+
+This file covers the implementation of chess rules & logic for an interactive chess board
+
+
+1. Piece Movement:
+
+Each piece class (Pawn, Rook, Knight, Bishop, Queen, King) defines its movement logic in the get_legal_moves method.
+
+2. Special moves
+The King class includes logic for castling, and the Pawn class includes logic for en passant and promotion.
+Board Management:
+
+The ChessBoard class manages the state of the board, piece positions, and special move conditions like en passant.
+The move_piece method handles moving pieces and updating the board state.
+Game Management:
+
+The ChessGame class manages the overall game flow, including turn order and checking game-over conditions (checkmate and stalemate).
+The play_turn method processes a player's move, checks legality, and updates the game state accordingly.
+This implementation covers the basic rules of chess, special moves, and game state management, providing a functional chess game logic.
